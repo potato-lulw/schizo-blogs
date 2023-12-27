@@ -1,11 +1,20 @@
 import React from 'react'
 
-import { FaTrash } from "react-icons/fa6";
+// import { FaTrash } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+
 
 export default function BlogList({ blogs, title }) {
 
 
+  
+  // const handleClick = (id) => {
+  //   fetch('http://localhost:8000/blogs/' + id, {
+  //     method: 'DELETE'
+  //   }).then(()=>{
+  //     navigate('/');
+  //   });
+  // }
 
   return (
     <div>
@@ -17,7 +26,7 @@ export default function BlogList({ blogs, title }) {
             <h2 className='text-xl font-semibold text-sky-500 mb-[8px]'>{blog.title}</h2>
             <p>Written by: <span className='font-medium '>{blog.author}</span></p>
             </Link>
-            <FaTrash className='absolute right-3 top-3 text-sky-500 hover:text-red-500 transition cursor-pointer' />
+            {/* <FaTrash className='absolute right-3 top-3 text-sky-500 hover:text-red-500 transition cursor-pointer' onClick={() => {handleClick(blog.id)}}/> */}
           </div>
         
 

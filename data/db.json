@@ -1,25 +1,40 @@
 {
-
-    "blogs":[
-        {
-          "title": "Absurd Chronicles: Hilarity Unleashed",
-          "body": "Ever heard about the time Granny mistook a banana for a phone? No? Well, welcome to the world of zany happenings and side-splitting tales. In our peculiar universe, everyday objects take on unexpected roles. Picture this: Bob, a penguin, attending a formal gala because, why not? Or the time a rubber chicken became the town's honorary mayor. These whimsical stories will tickle your funny bone and leave you questioning reality, in the best possible way. Join me, Chuckle Maestro, as we embark on a journey through the unpredictable and uproarious landscapes of Schizo Randomville. Laughter guaranteed, sanity optional.",
-          "author": "Chuckle Maestro",
-          "id": 0
-        },
-        {
-          "title": "Quirky Quandaries: Adventures in Nonsense",
-          "body": "Buckle up for a rollercoaster of ludicrous escapades in the land of nonsensical wonders! Imagine a world where gravity decides to call in sick, and people find themselves floating in mid-air at the most inconvenient times. Ever met a talking sock with a penchant for stand-up comedy? I have, and it's a tale worth sharing. From cows engaging in philosophical debates to spontaneous dance-offs in the supermarket aisles, these schizo random stories will leave you questioning your grip on reality while embracing the hilarity that ensues. I'm Jest Juggler, your guide through the labyrinth of the absurd—where laughter reigns supreme.",
-          "author": "Jest Juggler",
-          "id": 1
-        },
-        {
-          "title": "Whimsy Wonders: A Symphony of Chaos",
-          "body": "Hold on to your hats, folks, as we dive headfirst into a carnival of chaos and giggles! Picture this: a group of squirrels forming a rock band and challenging the local pigeons to a battle of the bands. If that's not enough, imagine a library where books tell the stories themselves, occasionally interrupting each other for a heated literary debate. These schizo random tales will have you questioning whether you've stepped into a parallel universe where hilarity reigns supreme. I'm Gigglesmith, your conductor through the symphony of absurdity. Prepare for belly laughs, head scratches, and a journey through the wonderfully wacky world of Whimsy Wonders.",
-          "author": "Gigglesmith",
-          "id": 2
-        }
-      ]
-      
-      
+  "blogs": [
+    {
+      "title": "Absurd Chronicles: Hilarity Unleashed",
+      "body": "Ever heard about the time Granny mistook a banana for a phone? No? Well, welcome to the world of zany happenings and side-splitting tales. In our peculiar universe, everyday objects take on unexpected roles. Picture this: Bob, a penguin, attending a formal gala because, why not? Or the time a rubber chicken became the town's honorary mayor. These whimsical stories will tickle your funny bone and leave you questioning reality, in the best possible way. Join me, Chuckle Maestro, as we embark on a journey through the unpredictable and uproarious landscapes of Schizo Randomville. Laughter guaranteed, sanity optional.",
+      "author": "Chuckle Maestro",
+      "id": 0
+    },
+    {
+      "title": "Quirky Quandaries: Adventures in Nonsense",
+      "body": "Buckle up for a rollercoaster of ludicrous escapades in the land of nonsensical wonders! Imagine a world where gravity decides to call in sick, and people find themselves floating in mid-air at the most inconvenient times. Ever met a talking sock with a penchant for stand-up comedy? I have, and it's a tale worth sharing. From cows engaging in philosophical debates to spontaneous dance-offs in the supermarket aisles, these schizo random stories will leave you questioning your grip on reality while embracing the hilarity that ensues. I'm Jest Juggler, your guide through the labyrinth of the absurd—where laughter reigns supreme.",
+      "author": "Jest Juggler",
+      "id": 1
+    },
+    {
+      "title": "Whimsy Wonders: A Symphony of Chaos",
+      "body": "Hold on to your hats, folks, as we dive headfirst into a carnival of chaos and giggles! Picture this: a group of squirrels forming a rock band and challenging the local pigeons to a battle of the bands. If that's not enough, imagine a library where books tell the stories themselves, occasionally interrupting each other for a heated literary debate. These schizo random tales will have you questioning whether you've stepped into a parallel universe where hilarity reigns supreme. I'm Gigglesmith, your conductor through the symphony of absurdity. Prepare for belly laughs, head scratches, and a journey through the wonderfully wacky world of Whimsy Wonders.",
+      "author": "Gigglesmith",
+      "id": 2
+    },
+    {
+      "title": "Rant Revolution: Unleashing Fury on the Absurd",
+      "body": "Prepare yourself for a cathartic journey through the realms of irritation and absurdity in Rant Revolution. Ever notice how socks mysteriously disappear in the laundry, leaving their lonely counterparts to roam the sock drawer in perpetual solitude? And don't get me started on the conspiracy of self-opening ketchup bottles that seem to defy all logic! Join me, Rant Ringleader, as we unravel the maddening mysteries of everyday annoyances and embark on a rant-fueled escapade. Together, we'll expose the absurdity that lurks beneath the surface of mundane grievances, one exasperated diatribe at a time.",
+      "author": "Rant Ringleader",
+      "id": 3
+    },
+    {
+      "title": "Outrage Odyssey: Navigating the Sea of Senselessness",
+      "body": "Set sail with me, Outrage Oracle, on an Odyssey through the tumultuous waters of outrageous absurdities. Why do we press the elevator button multiple times, as if it possesses magical speed-boosting powers? And don't even get me started on the perplexing phenomenon of phantom smartphone vibrations that convince us someone cares enough to message, only to find an empty notification tray. Together, we'll navigate the sea of senselessness, confronting the trivialities that send us over the edge. Join the Outrage Odyssey and let the waves of exasperation carry us to uncharted territories of frustration and fury.",
+      "author": "Outrage Oracle",
+      "id": 4
+    },
+    {
+      "title": "Grumble Gazette: Chronicles of Everyday Agony",
+      "body": "In the relentless pursuit of sanity, Grumble Gazette emerges as the voice of disgruntlement in a world gone mad. Ever tried assembling furniture from a certain Swedish store only to end up with an abstract sculpture and a pile of spare parts? The agony is real. And let's not even mention the chaos that is the self-checkout lane, where a bagging error sends the entire system into meltdown mode. I'm Grumble Guru, your companion in commiseration, navigating the chaotic seas of daily vexations and turning them into tales of woe for the Chronicles of Everyday Agony.",
+      "author": "Grumble Guru",
+      "id": 5
+    }
+  ]
 }

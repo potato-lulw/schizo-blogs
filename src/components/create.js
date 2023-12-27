@@ -1,10 +1,35 @@
 import React, { useState } from 'react'
+import {useNavigate} from 'react-router-dom'
 
 export default function Create() {
 
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("");
+  const [isPending, setIsPending] = useState(false);
+
+  const navigate = useNavigate();
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    const blog = {
+      title: title, body: body, author: author
+    };
+
+    setIsPending(true);
+
+    fetch("http://localhost:8000/blogs", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(blog)
+    }).then(() => {
+      console.log("Success");
+      setIsPending(false); 
+      navigate("/")
+    });
+
+    
+  }
   
   return (
     <div className='max-w-[400px] flex flex-col justify-center mx-auto text-center '>
@@ -34,7 +59,9 @@ export default function Create() {
           target={author}
           onChange={(e) => setAuthor(e.target.value)}
         />
-        <button className='px-4 py-2 rounded-md  w-auto mx-auto mt-6 text-white bg-sky-500 cursor-pointer'>Add this Yapp</button>
+        {!isPending && <button className='px-4 py-2 rounded-md  w-auto mx-auto mt-6 text-white bg-sky-500 cursor-pointer' onClick={handleClick}>Add this Yapp</button>}
+        {isPending && <button disabled className='px-4 py-2 rounded-md  w-auto mx-auto mt-6 text-white bg-sky-300 cursor-pointer' onClick={handleClick}>Adding.. chill</button>}
+        
       </form>
       
     </div>
